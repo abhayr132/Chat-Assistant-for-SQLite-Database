@@ -13,5 +13,14 @@ about employee and department data.
       - Salary: The salary of the employee.
       - Hire_Date: The date when the employee was hired.
 
+   2. Departments: This table stores information about the company's departments, including:
+      - ID: A unique identifier for each department.
+      - Name: The name of the department.
+      - Manager: The name of the manager who oversees the department.
+
+
+
+
+
 
 
