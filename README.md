@@ -1,4 +1,4 @@
-# Chat-Assistant-for-SQLite-Database
+ # Chat-Assistant-for-SQLite-Database
 
 The chat assistant is designed to interact with an SQLite database and respond to natural language queries 
 about employee and department data.
@@ -35,8 +35,8 @@ about employee and department data.
 ## 3. Error Handling
  The assistant is built to handle a variety of potential issues gracefully:
 
- * Invalid or Unknown Queries:If a query cannot be understood, the assistant responds with a default error message like "Sorry, I didn’t understand that query."
- * No Results Found:If no data matches the query ,the assistant provides a helpful message, such as "No employees found in the Sales department."
+ * Invalid or Unknown Queries: If a query cannot be understood, the assistant responds with a default error message like "Sorry, I didn’t understand that query."
+ * No Results Found: If no data matches the query ,the assistant provides a helpful message, such as "No employees found in the Sales department."
 
 
 
