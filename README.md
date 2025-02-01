@@ -30,19 +30,10 @@ The chat assistant allows users to ask questions about employees and departments
  * SQLite3 Python library (comes preinstalled with Python)
  * Streamlit
  
-     
-    
-   
-    
-
-
-## 3. Error Handling
- The assistant is built to handle a variety of potential issues gracefully:
-
- * Invalid or Unknown Queries: If a query cannot be understood, the assistant responds with a default error message like "Sorry, I didn’t understand that query."
- * No Results Found: If no data matches the query ,the assistant provides a helpful message, such as "No employees found in the Sales department."
-
-## 4. User Interaction Flow
+## Installation Steps
+* Install the required libraries:-
+  - It’s recommended to use a virtual environment, but it’s not mandatory. Install the dependencies by running:
+   ```pip install -r requirements.txt```
 
   * The user interacts with the assistant by typing queries in natural language.
   * The assistant processes the query, generates an appropriate SQL statement, executes it against the database, and then formats the results into a user-friendly response.
