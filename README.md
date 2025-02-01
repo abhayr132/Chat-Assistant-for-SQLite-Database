@@ -32,8 +32,9 @@ The chat assistant allows users to ask questions about employees and departments
  
 ## Installation Steps
 * Install the required libraries:-
-  - It’s recommended to use a virtual environment, but it’s not mandatory. Install the dependencies by running:
-  - ```pip install -r requirements.txt```
+  - It’s recommended to use a virtual environment, but it’s not mandatory.
+  - Install the dependencies by running:
+   ```pip install -r requirements.txt```
 
   * The user interacts with the assistant by typing queries in natural language.
   * The assistant processes the query, generates an appropriate SQL statement, executes it against the database, and then formats the results into a user-friendly response.
