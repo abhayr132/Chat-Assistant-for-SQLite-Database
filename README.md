@@ -33,12 +33,13 @@ The chat assistant allows users to ask questions about employees and departments
 ## Installation Steps
 * Install the required libraries:-
   - It’s recommended to use a virtual environment, but it’s not mandatory.
-    Install the dependencies by running:
-   ```pip install -r requirements.txt```
+* Set up the SQLite database:-
+  - database file ```company.db```
+* Run the Streamlit app:-
+  - simply run the command ```streamlit run app.py```
+    
+   
 
-  * The user interacts with the assistant by typing queries in natural language.
-  * The assistant processes the query, generates an appropriate SQL statement, executes it against the database, and then formats the results into a user-friendly response.
-  * Responses are displayed back to the user in a clear and readable format. If no results are found or if there’s an error, the assistant will inform the user accordingly.
-
+ 
 
 
