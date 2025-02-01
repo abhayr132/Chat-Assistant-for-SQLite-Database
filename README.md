@@ -1,12 +1,18 @@
  # Chat-Assistant-for-SQLite-Database
+This project is a Python-based chat assistant designed to interact with an SQLite database. The assistant can answer a variety of natural language queries related to employees and departments, making it a useful tool for managing company data.
 
-The chat assistant is designed to interact with an SQLite database and respond to natural language queries 
-about employee and department data.
+## Overview
+The chat assistant allows users to ask questions about employees and departments in a company. The assistant processes natural language queries, converts them into SQL commands, and fetches data from the SQLite database to provide meaningful responses.
 
-## 1.SQLite Database Setup
-  The assistant relies on a small SQLite database with two tables:-
-  
-  1. Employees: This table stores employee details, including:
+## Features
+* The assistant can handle queries like-
+  - "Show me all employees in the Sales department."
+  - "Who is the manager of the Engineering department?"
+  - "List all employees hired after 2021-01-01."
+  - "What is the total salary expense for the Marketing department?"
+
+## Database Schema
+   1. Employees: This table stores employee details, including:
       - ID: A unique identifier for each employee.
       - Name: The name of the employee.
       - Department: The department to which the employee belongs.
@@ -18,19 +24,15 @@ about employee and department data.
       - Name: The name of the department.
       - Manager: The name of the manager who oversees the department.
 
-## 2. Query Handling
-  The core functionality of the assistant is to convert user queries into SQL statements and fetch relevant data from the database.
+## Setup and Installation
+### Requirements
+    * Python 3.12
+    * SQLite3 Python library (comes preinstalled with Python)
+    * Streamlit
+    
+   
+    
 
-  * The assistant accepts queries in natural language, such as:
-    - "Show me all employees in the Sales department."
-    - "Who is the manager of the Engineering department?"
-    - "List all employees hired after 2021-01-01."
-    - "What is the total salary expense for the Marketing department?"
- * The assistant uses basic string matching and regular expressions to extract the necessary information from the user’s query.
- for example-
-    - It recognizes when a query is asking for employees in a specific department.
-    - It matched the department name or date when needed.
- * Based on the information, the assistant constructs an SQL query to fetch the relevant data from the database.
 
 ## 3. Error Handling
  The assistant is built to handle a variety of potential issues gracefully:
