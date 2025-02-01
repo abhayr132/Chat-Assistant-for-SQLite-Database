@@ -26,10 +26,10 @@ about employee and department data.
     - "Who is the manager of the Engineering department?"
     - "List all employees hired after 2021-01-01."
     - "What is the total salary expense for the Marketing department?"
- The assistant uses basic string matching and regular expressions to extract the necessary information from the user’s query.
+ * The assistant uses basic string matching and regular expressions to extract the necessary information from the user’s query.
  for example-
     - It recognizes when a query is asking for employees in a specific department.
     - It matched the department name or date when needed.
- Based on the information, the assistant constructs an SQL query to fetch the relevant data from the database.
+ * Based on the information, the assistant constructs an SQL query to fetch the relevant data from the database.
 
 
