@@ -26,9 +26,11 @@ The chat assistant allows users to ask questions about employees and departments
 
 ## Setup and Installation
 ### Requirements
-    * Python 3.12
-    * SQLite3 Python library (comes preinstalled with Python)
-    * Streamlit
+ * Python 3.12
+ * SQLite3 Python library (comes preinstalled with Python)
+ * Streamlit
+ 
+     
     
    
     
