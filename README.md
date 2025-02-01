@@ -18,8 +18,7 @@ about employee and department data.
       - Name: The name of the department.
       - Manager: The name of the manager who oversees the department.
 
-
-
+# 2. Query Handling
 
 
 
