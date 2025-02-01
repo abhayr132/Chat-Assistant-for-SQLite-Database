@@ -38,7 +38,18 @@ The chat assistant allows users to ask questions about employees and departments
 * Run the Streamlit app:-
   - simply run the command ```streamlit run app.py```
     
-   
+## How the Assistant Works
+* User Query Input:
+  The user inputs a query in natural language via the Streamlit interface. The assistant processes this input and tries to match it to a pre-defined set of query patterns.
+* Query Processing:
+  Once the input is received, the assistant uses simple NLP techniques or keyword matching to detect the type of query and convert it into a SQL query.
+*  Displaying Results:
+  The results are displayed in a user-friendly format in the Streamlit interface.
+* Error Handling:
+  If the query cannot be processed or if the department name is invalid, the assistant will respond with an appropriate error message. 
+
+
+
 
  
 
