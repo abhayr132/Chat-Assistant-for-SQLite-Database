@@ -32,4 +32,11 @@ about employee and department data.
     - It matched the department name or date when needed.
  * Based on the information, the assistant constructs an SQL query to fetch the relevant data from the database.
 
+## 3. Error Handling
+ The assistant is built to handle a variety of potential issues gracefully:
+
+ * Invalid or Unknown Queries:If a query cannot be understood, the assistant responds with a default error message like "Sorry, I didn’t understand that query."
+ * No Results Found:If no data matches the query ,the assistant provides a helpful message, such as "No employees found in the Sales department."
+
+
 
