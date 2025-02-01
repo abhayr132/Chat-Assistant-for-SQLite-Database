@@ -38,5 +38,11 @@ about employee and department data.
  * Invalid or Unknown Queries: If a query cannot be understood, the assistant responds with a default error message like "Sorry, I didn’t understand that query."
  * No Results Found: If no data matches the query ,the assistant provides a helpful message, such as "No employees found in the Sales department."
 
+## 4. User Interaction Flow
+
+  * The user interacts with the assistant by typing queries in natural language.
+  * The assistant processes the query, generates an appropriate SQL statement, executes it against the database, and then formats the results into a user-friendly response.
+  * Responses are displayed back to the user in a clear and readable format. If no results are found or if there’s an error, the assistant will inform the user accordingly.
+
 
 
