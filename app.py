@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import os
 
 # configure our api key
-genai.configure(api_key="AIzaSyA_SZ_WslmAVY5hCfNMQb9HQRa3ACSSbjs")
+genai.configure(api_key="")
 
 # function to load google gemini model and provide sql query as response
 def get_gemini_response(question,prompt):
